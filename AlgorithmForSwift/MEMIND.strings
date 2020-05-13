@@ -1,0 +1,12 @@
+/* 
+  MEMIND.strings
+  AlgorithmForSwift
+
+  Created by 赵丹 on 2020/5/13.
+  Copyright © 2020 赵丹. All rights reserved.
+*/
+
+/**
+ 快速排序/归并排序：
+ 把一个问题分为多个子问题解决，称分而治之
+ */

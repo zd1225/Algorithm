@@ -20,6 +20,7 @@
 		8D58B7E2246B99700099EF7F /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7DE246B99700099EF7F /* QuickSort.swift */; };
 		8D58B7E3246B99700099EF7F /* GenerateSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7DF246B99700099EF7F /* GenerateSort.swift */; };
 		8D58B7E5246B99D60099EF7F /* AlgorithmSecondTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7E4246B99D60099EF7F /* AlgorithmSecondTest.swift */; };
+		8D58B823246C46FF0099EF7F /* MEMIND.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D58B822246C46FF0099EF7F /* MEMIND.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		8D58B7DE246B99700099EF7F /* QuickSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		8D58B7DF246B99700099EF7F /* GenerateSort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenerateSort.swift; sourceTree = "<group>"; };
 		8D58B7E4246B99D60099EF7F /* AlgorithmSecondTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmSecondTest.swift; sourceTree = "<group>"; };
+		8D58B822246C46FF0099EF7F /* MEMIND.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = MEMIND.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8D58B7AB246B992E0099EF7F /* AppDelegate.swift */,
 				8D58B7AD246B992E0099EF7F /* SceneDelegate.swift */,
 				8D58B7AF246B992E0099EF7F /* ViewController.swift */,
+				8D58B822246C46FF0099EF7F /* MEMIND.strings */,
 				8D58B7B1246B992E0099EF7F /* Main.storyboard */,
 				8D58B7B4246B99310099EF7F /* Assets.xcassets */,
 				8D58B7B6246B99310099EF7F /* LaunchScreen.storyboard */,
@@ -255,6 +258,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D58B823246C46FF0099EF7F /* MEMIND.strings in Resources */,
 				8D58B7B8246B99310099EF7F /* LaunchScreen.storyboard in Resources */,
 				8D58B7B5246B99310099EF7F /* Assets.xcassets in Resources */,
 				8D58B7B3246B992E0099EF7F /* Main.storyboard in Resources */,

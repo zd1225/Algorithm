@@ -1,7 +1,7 @@
 //
 //  AlgorithmForSwiftTests.swift
 //  AlgorithmForSwiftTests
-//
+//  此处测试，均用的模拟器
 //  Created by 赵丹 on 2020/5/13.
 //  Copyright © 2020 赵丹. All rights reserved.
 //

@@ -90,12 +90,17 @@ class AlgorithmSecondTest: XCTestCase {
     }
     
     
-    //50000:1.31s 100000:41.8 O(nlogN)
+    //一路快排：50000:11.2s 100000:41.8(这是因为此数组中有大量重复元素)
+    //二路快排：50000:0.78s 100000:0.516 O(logn)
+    //三路快排 50000:0.226s 100000:0.463s
     func testQuickSortPerformance(){
         self.measure{
             var arr: [Int] = generateRandomData(n: 100000, RangeL: 8, RangeR: 88)
             quickSort(arr: &arr, n: arr.count)
         }
     }
+    
+    
+    
 }
 
