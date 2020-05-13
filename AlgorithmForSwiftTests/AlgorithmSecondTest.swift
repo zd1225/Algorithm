@@ -98,3 +98,4 @@ class AlgorithmSecondTest: XCTestCase {
         }
     }
 }
+
