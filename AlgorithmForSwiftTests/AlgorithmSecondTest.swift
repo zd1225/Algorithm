@@ -38,7 +38,7 @@ class AlgorithmSecondTest: XCTestCase {
     /***********************************************************************************/
     
     func testMergeSort(){
-        var arr: [Int] = generateRandomData(n: 50, RangeL: 8, RangeR: 88)
+        var arr: [Int] = generateRandomData(n: 10, RangeL: 8, RangeR: 88)
         print(arr)
         mergeSort(arr: &arr, n: arr.count)
         print(arr)
@@ -92,10 +92,10 @@ class AlgorithmSecondTest: XCTestCase {
     
     //一路快排：50000:11.2s 100000:41.8(这是因为此数组中有大量重复元素)
     //二路快排：50000:0.78s 100000:0.516 O(logn)
-    //三路快排 50000:0.226s 100000:0.463s
+    //三路快排 50000:0.226s 100000:0.463s 1000000:4.23s
     func testQuickSortPerformance(){
         self.measure{
-            var arr: [Int] = generateRandomData(n: 100000, RangeL: 8, RangeR: 88)
+            var arr: [Int] = generateRandomData(n: 1000000, RangeL: 8, RangeR: 88)
             quickSort(arr: &arr, n: arr.count)
         }
     }

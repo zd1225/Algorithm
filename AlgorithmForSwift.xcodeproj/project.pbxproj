@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D28C409246CCD8600397EAA /* HeapSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28C408246CCD8600397EAA /* HeapSort.swift */; };
+		8D28C40B246CE44D00397EAA /* AlgorithmOfHeapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D28C40A246CE44D00397EAA /* AlgorithmOfHeapTests.swift */; };
 		8D58B7AC246B992E0099EF7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7AB246B992E0099EF7F /* AppDelegate.swift */; };
 		8D58B7AE246B992E0099EF7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7AD246B992E0099EF7F /* SceneDelegate.swift */; };
 		8D58B7B0246B992E0099EF7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D58B7AF246B992E0099EF7F /* ViewController.swift */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8D28C408246CCD8600397EAA /* HeapSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeapSort.swift; sourceTree = "<group>"; };
+		8D28C40A246CE44D00397EAA /* AlgorithmOfHeapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmOfHeapTests.swift; sourceTree = "<group>"; };
 		8D58B7A8246B992E0099EF7F /* AlgorithmForSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgorithmForSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D58B7AB246B992E0099EF7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D58B7AD246B992E0099EF7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +133,7 @@
 			children = (
 				8D58B7C2246B99310099EF7F /* AlgorithmForSwiftTests.swift */,
 				8D58B7E4246B99D60099EF7F /* AlgorithmSecondTest.swift */,
+				8D28C40A246CE44D00397EAA /* AlgorithmOfHeapTests.swift */,
 				8D58B7C4246B99310099EF7F /* Info.plist */,
 			);
 			path = AlgorithmForSwiftTests;
@@ -149,6 +154,7 @@
 				8D58B7DF246B99700099EF7F /* GenerateSort.swift */,
 				8D58B7DD246B996F0099EF7F /* MergeSort.swift */,
 				8D58B7DE246B99700099EF7F /* QuickSort.swift */,
+				8D28C408246CCD8600397EAA /* HeapSort.swift */,
 				8D58B7DC246B996F0099EF7F /* SortTestHelper.swift */,
 			);
 			path = Algorithm;
@@ -293,6 +299,7 @@
 				8D58B7E3246B99700099EF7F /* GenerateSort.swift in Sources */,
 				8D58B7E0246B99700099EF7F /* SortTestHelper.swift in Sources */,
 				8D58B7E1246B99700099EF7F /* MergeSort.swift in Sources */,
+				8D28C409246CCD8600397EAA /* HeapSort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D28C40B246CE44D00397EAA /* AlgorithmOfHeapTests.swift in Sources */,
 				8D58B7C3246B99310099EF7F /* AlgorithmForSwiftTests.swift in Sources */,
 				8D58B7E5246B99D60099EF7F /* AlgorithmSecondTest.swift in Sources */,
 			);
